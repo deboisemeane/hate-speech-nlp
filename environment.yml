@@ -1,5 +1,6 @@
 name: NLP
 channels:
+  - pytorch
   - defaults
 dependencies:
   - aiohappyeyeballs=2.4.0=py311haa95532_0
@@ -32,6 +33,7 @@ dependencies:
   - ca-certificates=2024.9.24=haa95532_0
   - certifi=2024.8.30=py311haa95532_0
   - charset-normalizer=3.3.2=pyhd3eb1b0_0
+  - click=8.1.7=py311haa95532_0
   - colorama=0.4.6=py311haa95532_0
   - comm=0.2.1=py311haa95532_0
   - contourpy=1.2.0=py311h59b6b97_0
@@ -57,6 +59,7 @@ dependencies:
   - ipython=8.27.0=py311haa95532_0
   - jedi=0.19.1=py311haa95532_0
   - jinja2=3.1.4=py311haa95532_0
+  - joblib=1.4.2=py311haa95532_0
   - jpeg=9e=h827c3e9_3
   - jupyter_client=8.6.0=py311haa95532_0
   - jupyter_core=5.7.2=py311haa95532_0
@@ -102,6 +105,7 @@ dependencies:
   - multiprocess=0.70.15=py311haa95532_0
   - nest-asyncio=1.6.0=py311haa95532_0
   - networkx=3.3=py311haa95532_0
+  - nltk=3.9.1=py311haa95532_0
   - numexpr=2.8.7=py311h1fcbade_0
   - numpy=1.26.4=py311hdab7c0b_0
   - numpy-base=1.26.4=py311hd01c5d8_0
@@ -136,6 +140,7 @@ dependencies:
   - pyzmq=25.1.2=py311hd77b12b_0
   - qt-main=5.15.2=h19c9488_10
   - re2=2022.04.01=hd77b12b_0
+  - regex=2024.9.11=py311h827c3e9_0
   - requests=2.32.3=py311haa95532_0
   - setuptools=75.1.0=py311haa95532_0
   - sip=6.7.12=py311hd77b12b_0
@@ -146,6 +151,7 @@ dependencies:
   - sympy=1.13.2=py311haa95532_0
   - tbb=2021.8.0=h59b6b97_0
   - tk=8.6.14=h0416ee5_0
+  - torchtext=0.18.0=py311
   - tornado=6.4.1=py311h827c3e9_0
   - tqdm=4.66.5=py311h746a85d_0
   - traitlets=5.14.3=py311haa95532_0
