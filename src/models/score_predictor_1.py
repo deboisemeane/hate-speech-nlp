@@ -1,7 +1,6 @@
 import torch
 
-class HSC_1(torch.nn.Module):
+class Score_Predictor_RNN(torch.nn.Module):
     def __init__(self):
-        super(HSC_1, self).__init__()
+        super(Score_Predictor_RNN, self).__init__()
         
-    
